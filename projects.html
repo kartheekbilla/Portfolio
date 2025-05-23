@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Kartheek Billa</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background">
+        <div class="shape shape1"></div>
+        <div class="shape shape2"></div>
+        <div class="shape shape3"></div>
+    </div>
+
+    <header>
+        <div class="logo">KB</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider round">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </div>
+            </label>
+        </div>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+    <main>
+        <section class="page-header" style="margin-top: -10px;">
+            <div class="glass-card animate-fade-in">
+                <h1>My Projects</h1>
+                <p>A showcase of my work and technical skills</p>
+                <div class="quote-box">
+                    <blockquote>
+                        "DISCIPLINE AND EFFORT ARE THE CORNERSTONES OF EVERY PROJECT."                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects">
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="mern">MERN Stack</button>
+                <button class="filter-btn" data-filter="ai">AI & ML</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+            </div>
+
+            <div class="project-grid">
+                <div class="project-item animate-fade-in" data-category="mern ai">
+                    <div class="glass-card">
+                        <div class="project-img">
+                            <div class="img-placeholder">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-badge">Award Winner</div>
+                            <h3>SoulFlex - Mental Training Platform</h3>
+                            <p>SoulFlex is a structured mental training platform aimed at improving focus, well-being, and self-growth. It offers guided mindfulness exercises, relaxing music, yoga postures, and Surya Namaskar for overall mental and emotional wellness.</p>
+                            <div class="key-features">
+                                <h4>Key Features:</h4>
+                                <ul>
+                                    <li>Video-guided mindfulness exercises</li>
+                                    <li>Music for stress relief</li>
+                                    <li>Integrated Surya Namaskar</li>
+                                    <li>Workouts and yoga posture guides with personalization</li>
+                                    <li>Goal-setting and progress tracking</li>
+                                </ul>
+                            </div>
+                            <div class="tech-stack">
+                                <span>MongoDB</span>
+                                <span>Express.js</span>
+                                <span>React.js</span>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn small">View Demo</a>
+                                <a href="https://github.com/kartheekbilla/soulflex" class="btn small secondary">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-item animate-fade-in" data-category="mern web">
+                    <div class="glass-card">
+                        <div class="project-img">
+                            <div class="img-placeholder">
+                                <i class="fas fa-tint"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Blood Donation & Supply Chain Management</h3>
+                            <p>Developed during the Hackoverflow Hackathon, this system enhances blood donation and supply chain transparency. It connects blood donors with hospitals and patients while ensuring secure, real-time tracking of donations.</p>
+                            <div class="key-features">
+                                <h4>Key Features:</h4>
+                                <ul>
+                                    <li>Real-time donor-patient matching based on location and blood type</li>
+                                    <li>Emergency response system for urgent blood requests</li>
+                                    <li>Secure tracking of blood donations through the supply chain</li>
+                                </ul>
+                            </div>
+                            <div class="tech-stack">
+                                <span>MongoDB</span>
+                                <span>Express.js</span>
+                                <span>React.js</span>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn small">View Demo</a>
+                                <a href="" class="btn small secondary">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-item animate-fade-in" data-category="ai mern">
+                    <div class="glass-card">
+                        <div class="project-img">
+                            <div class="img-placeholder">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>AI-Powered Answer Sheet Evaluation</h3>
+                            <p>An AI-based system automating handwritten answer sheet evaluation using Optical Character Recognition (OCR) and deep learning. This solution minimizes manual grading efforts and ensures accurate assessment.</p>
+                            <div class="key-features">
+                                <h4>Key Features:</h4>
+                                <ul>
+                                    <li>Automated grading of handwritten answers using OCR</li>
+                                    <li>AI-driven accuracy and consistency in scoring</li>
+                                    <li>Feedback generation for students based on answers</li>
+                                    <li>Teacher-friendly dashboard for result verification</li>
+                                </ul>
+                            </div>
+                            <div class="tech-stack">
+                                <span>Tesseract OCR</span>
+                                <span>MongoDB</span>
+                                <span>Express.js</span>
+                                <span>React.js</span>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn small">View Demo</a>
+                                <a href="#" class="btn small secondary">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-timeline">
+            <div class="glass-card animate-fade-in">
+                <h2>Project Timeline</h2>
+                <div class="timeline-wrapper">
+                    <div class="timeline-line"></div>
+                    <div class="timeline-events">
+                        <div class="timeline-event">
+                            <div class="event-date">Aug 2024</div>
+                            <div class="event-content">
+                                <h3>Vedic Vision Hackathon</h3>
+                                <p>2nd Prize for SoulFlex Mental Training Platform</p>
+                            </div>
+                        </div>
+                        <div class="timeline-event">
+                            <div class="event-date">Dec 2024</div>
+                            <div class="event-content">
+                                <h3>Hackoverflow Hackathon</h3>
+                                <p>Developed Blood Donation & Supply Chain Management System</p>
+                            </div>
+                        </div>
+                        <div class="timeline-event">
+                            <div class="event-date">Jan 2025</div>
+                            <div class="event-content">
+                                <h3>AI Project Initiation</h3>
+                                <p>Started development of AI-Powered Answer Sheet Evaluation</p>
+                            </div>
+                        </div>
+                        <div class="timeline-event">
+                            <div class="event-date">Feb 2025</div>
+                            <div class="event-content">
+                                <h3>Nipuna Fest - Model Marathon</h3>
+                                <p>1st Prize for SoulFlex in Software Projects Category</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="future-projects">
+            <div class="glass-card animate-fade-in">
+                <h2>Future Project Ideas</h2>
+                <div class="future-project-grid">
+                    <div class="future-project-item">
+                        <div class="future-project-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="future-project-content">
+                            <h3>E-Slambook</h3>
+                            <p>I am building a nostalgic website that replaces handwritten slambooks. It aims to enhance user experience by reviving school memories in a digital format.</p>
+                        </div>
+                    </div>
+                    <div class="future-project-item">
+                        <div class="future-project-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="future-project-content">
+                            <h3>Couple Platform</h3>
+                            <p>A thoughtful digital space for couples to connect, share, and grow together—personalized for meaningful interactions and memories.</p>
+                        </div>
+                    </div>
+
+                    <div class="future-project-item">
+                        <div class="future-project-icon">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <div class="future-project-content">
+                            <h3>Hardware & Software Social Experiment</h3>
+                            <p>An integrated tech project combining hardware and software to study human behavior and interaction through a social experiment.</p>
+                        </div>
+                    </div>
+
+                    <div class="future-project-item">
+                        <div class="future-project-icon">
+                            <i class="fas fa-link"></i>
+                        </div>
+                        <div class="future-project-content">
+                            <h3>Anti-Tampering Platform</h3>
+                            <p>An online platform to reduce product tampering by securely connecting manufacturers and retailers, ensuring authenticity and traceability.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+   <footer>
+        <div class="footer-content">
+            <div class="footer-quote">
+                <p>"Never cage your curiosity—Push past fear, Break your limits, and Master every skill the world dares to offer."</p>
+            </div>
+           <center> <div class="footer-logo" style="margin-top: -15px;">
+             <div class="social-icons stagger-animation">
+                        <a href="https://github.com/" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:kartheekbilla147@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                        <a href="tel:+919182844959" class="social-icon"><i class="fas fa-phone"></i></a>
+            </div></center>
+            <p class="copyright">&copy; 2025 Kartheek Billa. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/theme-switcher.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
