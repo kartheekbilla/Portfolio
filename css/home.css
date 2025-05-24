@@ -399,7 +399,7 @@
   padding: 0px 5% 100px 5%; /* Reduced from 500px */
   position: relative;
   z-index: 1;
-  margin-top:-300px;
+  margin-top:-400px;
 }
 
 .achievements .glass-card {
@@ -463,7 +463,7 @@
 /* Contact Section */
 .contact {
   padding: 300px 5% 0px 5%;
-  margin-top: 150px; /* Adds top spacing for separation */
+  margin-top: 250px; /* Adds top spacing for separation */
   position: relative;
   z-index: 0; /* Optional for visual separation */
 }
