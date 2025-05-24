@@ -462,7 +462,8 @@
 
 /* Contact Section */
 .contact {
-  padding: 450px 5% 0px 5%; /* Adds top spacing for separation */
+  padding: 0px 5% 0px 5%; 
+  margin-top: 450px;/* Adds top spacing for separation */
   position: relative;
   z-index: 0; /* Optional for visual separation */
 }
