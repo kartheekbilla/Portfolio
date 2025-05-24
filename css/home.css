@@ -616,7 +616,6 @@
         display: none;
     }
      .achievements {
-    margin-top: -400px; /* remove the negative margin on mobile */
     padding-bottom: 50px; /* optional: add space below */
   }
    .contact {
