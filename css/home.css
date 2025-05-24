@@ -465,7 +465,7 @@
   padding: 300px 5% 0px 5%;
   margin-top: 250px; /* Adds top spacing for separation */
   position: relative;
-  z-index: 0; /* Optional for visual separation */
+  z-index: 2; /* Optional for visual separation */
 }
 
 .contact .glass-card {
@@ -615,6 +615,14 @@
     .floating-element {
         display: none;
     }
+     .achievements {
+    margin-top: 0px; /* remove the negative margin on mobile */
+    padding-bottom: 50px; /* optional: add space below */
+  }
+   .contact {
+    margin-top: 100px; /* reduce for better spacing */
+   }
+  
 }
 
 @media (max-width: 576px) {
