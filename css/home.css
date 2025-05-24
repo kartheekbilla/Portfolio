@@ -616,13 +616,12 @@
         display: none;
     }
      .achievements {
-    margin-top: 0px; /* remove the negative margin on mobile */
+    margin-top: -400px; /* remove the negative margin on mobile */
     padding-bottom: 50px; /* optional: add space below */
   }
    .contact {
-    margin-top: 200px; /* reduce for better spacing */
+    margin-top: 100px; /* reduce for better spacing */
    }
-  
 }
 
 @media (max-width: 576px) {
