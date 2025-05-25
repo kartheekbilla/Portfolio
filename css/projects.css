@@ -193,7 +193,7 @@
 
 .future-projects {
     padding: 0 5% 100px;
-    margin-top: 520px;
+    margin-top: 620px;
 }
 
 .future-projects .glass-card {
@@ -270,7 +270,11 @@
     }
     .project-timeline {
     padding: 50px 5% 50px;
-    margin-top: -620px;
+    margin-top: -770px;
+}
+.future-projects {
+    padding: 0 5% 100px;
+    margin-top: 720px;
 }
 }
 
